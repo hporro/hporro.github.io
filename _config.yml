@@ -1,2 +1,5 @@
 name: hporro
 markdown: kramdown
+kramdown:
+    math_engine: mathjax
+permalink: /:title
