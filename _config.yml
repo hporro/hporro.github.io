@@ -2,6 +2,11 @@ name: hporro
 markdown: kramdown
 kramdown:
     math_engine: mathjax
-permalink: /:title
+permalink: /:collection/:title/
 collections:
-    - images
+    projects:
+        output: true
+    blog:
+        output: true
+    images:
+collections_dir: postFiles

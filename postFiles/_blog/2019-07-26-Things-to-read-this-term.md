@@ -25,6 +25,7 @@ List of books that I want to read this term besides the ones for university, sor
 
 ## Computer science
 
+- Introduction to Parallel algorithms, Joseph Jaja
 - Computational geometry, Shamos & Preparata
 - Apunte de diseño y análisis de algoritmos, Navarro
 

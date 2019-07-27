@@ -10,7 +10,7 @@ I'll assume for this post that the reader has some familiarity with differential
 The first thing I want to explain is the way sand is modeled: [BLAH here]
 
 <figure class="centered-svg">
-<img src="./images/4spheres.svg"> 
+<img src="../../images/4spheres.svg"> 
 <figcaption>Figure 1: Sand particle's sphere placement.</figcaption>
 </figure>
 
