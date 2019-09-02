@@ -51,7 +51,8 @@ $$
 ## References
 
 1. Bell, N., Yu, Y., & Mucha, P. J. (2005, July). Particle-based simulation of granular materials. In Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation (pp. 77-86). ACM.
-2. David, B. (2001). Physically Based Modeling ONLINE SIGGRAPH 2001 COURSE NOTES,  Rigid Body Dynamics [lecture notes]. Retrieved from [http://graphics.pixar.com/pbm2001/pdf/notesg.pdf](http://graphics.pixar.com/pbm2001/pdf/notesg.pdf).
+2. David, B. (2001). Physically Based Modeling ONLINE SIGGRAPH 2001 COURSE NOTES,  Rigid Body Dynamics (lecture notes). Retrieved from [http://graphics.pixar.com/pbm2001/pdf/notesg.pdf].
+3. Harada Takahiro, (2007). Book Chapter 29. Real-Time Rigid Body Simulation on GPUs. In GPU Gems 3. Retrieved from [https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch29.html].
 
 ## Tech stack
 
