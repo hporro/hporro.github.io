@@ -5,6 +5,7 @@ This is my personal blog where I'll make posts about my personal projects and bl
 To run the page in localhost run:
 
 '''
+
 bundle exec jekyll serve
 
 '''
