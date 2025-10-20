@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 99%;
     height: 99%;
 }
@@ -12,32 +13,41 @@ html, body {
     grid-template-columns: 100%;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav ul,
+footer ul {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li,
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 nav ul.right-nav {
     float: right;
 }
+
 nav ul.left-nav {
     float: left;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.2em;
     line-height: 1.4em;
@@ -49,8 +59,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -70,4 +80,21 @@ iframe.cv {
     margin-right: 5%;
     width: 90%;
     height: 98%;
+}
+
+.navbar-hporro-page {
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: 'Helvetica';
+}
+
+.content-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-hporro-page {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: 'Helvetica';
 }

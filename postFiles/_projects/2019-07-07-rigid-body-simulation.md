@@ -2,7 +2,7 @@
 layout: post
 title: "Rigid body simulation"
 date: 2019-07-07
-showed: false
+showed: true
 ---
 <h2>[In Construction]</h2>
 
@@ -11,11 +11,10 @@ Hi! This semester I explored some ways to simulate sand in a directed work. In m
 Is also important to mention that in this particular case it was important to simulate a lot of equal rigid bodies, so I used the Nvidia CUDA toolkit to use the GPU to simulate their motion, and its particles example as a base to improve it adding angular motion, so the rendering of the particles and the collision detection were way easier.
 
 I'll assume for this post that the reader has some familiarity with differential equations and basic classical mechanics (anyone with two or three courses on math should be ok with that), because I'll use derivations of second newton's law for linear and angular momentum.
-
-The first thing I want to explain is the way sand is modeled: [BLAH here]
+The first thing I want to explain is the way sand is modeled: Each sand particle is composed of three spheres arranged in a specific configuration to create a tetrahedral shape.
 
 <figure class="centered-svg">
-<img src="../../images/4spheres.svg"> 
+<img src="../../../images/4spheres.svg" alt="Sand particle's sphere placement"> 
 <figcaption>Figure 1: Sand particle's sphere placement.</figcaption>
 </figure>
 
@@ -23,6 +22,7 @@ Formulas:
 
 $$ 
 \tag{1} p(t) = R(t)p_0 + x(t) 
+$$
 $$
 
 $$ 
