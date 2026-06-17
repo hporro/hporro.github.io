@@ -849,6 +849,18 @@ main {
   margin-bottom: 30px;
 }
 
+.resume-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.resume-text a {
+  color: var(--orange-yellow-crayola);
+  display: inline;
+}
+
 
 /**
  * education and experience 
