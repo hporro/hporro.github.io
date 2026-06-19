@@ -532,6 +532,33 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
+.language-switcher {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.language-btn {
+  background: none;
+  border: 1px solid var(--jet);
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all var(--transition-1);
+  font-weight: 600;
+}
+
+.language-btn:hover,
+.language-btn:focus {
+  color: var(--orange-yellow-crayola);
+  border-color: var(--orange-yellow-crayola);
+}
+
+.lang-text {
+  display: inline-block;
+}
+
 
 
 
@@ -1993,7 +2020,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .navbar-list {
-    gap: 30px;
+    gap: 2px;
     padding: 0 20px;
   }
 

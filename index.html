@@ -48,11 +48,11 @@
         <div class="info-content">
           <h1 class="name" title="Heinich PORRO">Heinich PORRO</h1>
 
-          <p class="title">PhD software engineer</p>
+          <p class="title" data-i18n="title">PhD software engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span data-i18n="showContacts">Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -150,15 +150,15 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link data-en="About" data-fr="À propos">About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link data-en="Resume" data-fr="CV">Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link data-en="Portfolio" data-fr="Portfolio">Portfolio</button>
           </li>
 
           <!-- <li class="navbar-item">
@@ -166,11 +166,17 @@
           </li> -->
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research</button>
+            <button class="navbar-link" data-nav-link data-en="Research" data-fr="Recherche">Research</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link data-en="Contact" data-fr="Contact">Contact</button>
+          </li>
+
+          <li class="navbar-item language-switcher">
+            <button class="language-btn" id="lang-toggle" title="Toggle language">
+              <span class="lang-text">FR</span>
+            </button>
           </li>
 
         </ul>
@@ -188,19 +194,19 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title" data-i18n="aboutTitle">About me</h2>
         </header>
 
         <section class="about-text">
-          <p>
+          <p data-i18n="underConstruction">
             [[[UNDER CONSTRUCTION]]] [[[LOOKING FOR MY NEXT ROLE]]]
           </p>
 
-          <p>
+          <p data-i18n="aboutIntro">
             I'm a <b>PhD and software developer</b> with a passion for computer graphics, GPU programming, Data science and web
             development.
           </p>
-          <p>
+          <p data-i18n="aboutPara2">
             Recently, I completed my PhD in Computer Science at the XLIM laboratory under the
             supervision of Professor Benoit Crespin, where I focused
             on developing new algorithms and techniques for colloidal suspension simulations, with a particular emphasis on GPU programming
@@ -227,7 +233,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title" data-i18n="whatImDoing">What i'm doing</h3>
 
           <div class="separator"></div>
           <ul class="service-list">
@@ -239,9 +245,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title" data-i18n="webDevelopment">Web development</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="webDevDescription">
                   This webpage and others to come!
                 </p>
               </div>
@@ -255,9 +261,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Computer graphics</h4>
+                <h4 class="h4 service-item-title" data-i18n="computerGraphics">Computer graphics</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="graphicsDescription">
                   Development of 3D graphics applications, including games and simulations, using OpenGL.
                 </p>
               </div>
@@ -271,9 +277,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Research</h4>
+                <h4 class="h4 service-item-title" data-i18n="research">Research</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="researchDescription">
                   My research focuses on the development of new algorithms and techniques for simulation, with a
                   particular emphasis on GPU programming and geometry.
                 </p>
@@ -288,9 +294,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Science and IA</h4>
+                <h4 class="h4 service-item-title" data-i18n="dataScienceIA">Data Science and IA</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="dataDescription">
                   Working on personal projects involving data analysis and machine learning, with a focus on using
                   Python and
                   popular libraries such as NumPy, Pandas, and Scikit-learn.
