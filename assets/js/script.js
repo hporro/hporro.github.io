@@ -181,7 +181,7 @@ const translations = {
   }
 };
 
-let currentLanguage = localStorage.getItem('language') || 'fr';
+let currentLanguage = localStorage.getItem('language') || 'en';
 
 // Initialize language on page load
 function initializeLanguage() {
