@@ -115,7 +115,7 @@ const translations = {
     whatImDoing: "Ce que je fais",
     webDevelopment: "Développement web",
     webDevDescription: "Cette page et d'autres à venir!",
-    computerGraphics: "Infographie",
+    computerGraphics: "3D Graphics",
     graphicsDescription: "Développement d'applications graphiques 3D, y compris des jeux et des simulations, utilisant OpenGL.",
     research: "Recherche",
     researchDescription: "Ma recherche se concentre sur le développement de nouveaux algorithmes et techniques de simulation, en mettant l'accent particulier sur la programmation GPU et la géométrie.",
